@@ -11,3 +11,10 @@ function App() {
 }
 
 export default App;
+
+/*
+CSS FLEXBOX:
+  is used to style your website.
+  
+*/
+
