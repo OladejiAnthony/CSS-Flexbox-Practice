@@ -1,20 +1,14 @@
-
+import Ex from "../src/components/Examples/Ex"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      ojoj
+      <Ex />
   
     </div>
   );
 }
 
 export default App;
-
-/*
-CSS FLEXBOX:
-  is used to style your website.
-  
-*/
 
