@@ -6,7 +6,7 @@ import {
 } from "framer-motion"
 
 const Mv = () => {
-    //MotionValue's
+    //MotionValue Path Drawing, Drag, Transform
 
     const x = useMotionValue(0)
     const background = useTransform(
@@ -16,13 +16,25 @@ const Mv = () => {
     )
 
     return (
-        <motion.div style={{ background }}>
+        <motion.div 
+          style={{ 
+            background,
+            width: "30rem",
+            height: "30rem",
+            display: "flex",
+            justifyContent: 'center'
+        }}>
           <motion.div
             drag="x"
             dragConstraints={{ left: 0, right: 0 }}
-            style={{ x }}
+            style={{
+                 x,
+                 backgroundColor: "white",
+                 width: "10rem",
+                 height: "10rem"
+            }}
           >
-            <Icon x={x} />
+           {/* <Icon x={x} /> */}
           </motion.div>
         </motion.div>
       )

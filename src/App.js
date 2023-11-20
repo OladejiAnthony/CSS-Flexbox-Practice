@@ -1,9 +1,10 @@
-import Ex from "../src/components/Examples/Ex"
+import Ex from "./components/Examples/Anim"
 import './App.css';
 import Dra from "./components/Examples/Dra";
 import Ges from "./components/Examples/Ges";
 import KeyF from "./components/Examples/KeyF";
 import Mv from "./components/Examples/Mv";
+import STA from "./components/Examples/STA";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Ges />
       <Dra />
       <Mv /> 
+      <STA />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { motion } from "framer-motion"
 
 
 function Ex() {
+  //Animation 
   return (
     <motion.div
         style={{

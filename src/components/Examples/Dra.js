@@ -26,6 +26,7 @@ function Dra() {
             bounceDamping: 5
 
         }}
+        draggable="false"
 
     />
   )
