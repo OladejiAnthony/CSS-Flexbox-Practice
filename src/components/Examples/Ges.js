@@ -12,7 +12,7 @@ const Ges = () => {
                 height: "80px",
                 margin: "1rem"
             }}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.5 }}
             whileTap={{ scale: 0.5 }}
         />
     )

@@ -20,9 +20,11 @@ const Mv = () => {
           style={{ 
             background,
             width: "30rem",
-            height: "30rem",
+            height: "20rem",
             display: "flex",
-            justifyContent: 'center'
+            justifyContent: 'center',
+            marginBottom: "1rem",
+            padding: "1rem"
         }}>
           <motion.div
             drag="x"

@@ -14,7 +14,7 @@ function Ex() {
           margin: "1rem"
         }}
         initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
+        animate={{ opacity: 1, scale: 1.5 }}
         transition={{ duration: 0.5 }}
     />
   )
@@ -30,6 +30,12 @@ will automatically animate to the new state.
 
 The animation used can be configured using 
 the "transition" prop.
+
+Your motion components need to know when you want these animations 
+to start and what state you want them to end up in when the 
+animation is finished.
+For this, you need to add the "intial" prop and the "animate" prop.
+
 
 */
 
